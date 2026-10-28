@@ -1,0 +1,37 @@
+{
+  "name": "clude",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Ultra-lightweight terminal workflow & developer intelligence CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "clude": "./bin/clude.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/clude.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "git",
+    "code-audit",
+    "terminal",
+    "productivity",
+    "workflow"
+  ],
+  "author": "kkrkishan <kishankisna.kisna@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkrkishan/clude.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kkrkishan/clude/issues"
+  },
+  "homepage": "https://github.com/kkrkishan/clude#readme",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
